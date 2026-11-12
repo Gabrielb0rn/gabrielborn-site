@@ -48,9 +48,11 @@ Uma fase por vez. A próxima só começa com a atual funcionando, commitada e co
 - [x] Sessão em cookie, proxy e trava do `/admin` no servidor
 - [x] Testes: regra do e-mail do admin, `getAdmin`/`requireAdmin` e acesso ao `/admin` sem sessão
 - [x] CI: lint, tipos, testes, build e testes de ponta a ponta
-- [ ] Projeto no Supabase criado e migration aplicada
-- [ ] Repositório no GitHub com o CI passando
-- [ ] Deploy na Vercel com as variáveis de ambiente e o cron `/api/keep-alive`
+- [x] Projeto no Supabase criado
+- [ ] Migration aplicada no banco (`npm run db:deploy`, depois de preencher o `.env`)
+- [x] Repositório no GitHub com o CI passando
+- [x] Projeto na Vercel ligado ao repositório
+- [ ] Variáveis de ambiente na Vercel e cron `/api/keep-alive` respondendo
 - [ ] Login do admin testado de verdade, com o link chegando por e-mail
 
 ### Fase 1: direção de arte
